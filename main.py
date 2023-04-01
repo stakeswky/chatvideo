@@ -51,7 +51,7 @@ def transcribe_audio(input_file, max_size):
 
 def summarize_text(text, context=""):
     summary = openai.ChatCompletion.create(
-      model="gpt-4",
+      model="gpt-3.5-turbo",
       messages=[{"role": "user", "content": f"Summarize the following text in 6 bullet points: {context} {text}"}]
     )
     return summary["choices"][0]["message"]["content"]
