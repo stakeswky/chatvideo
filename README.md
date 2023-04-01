@@ -1,10 +1,10 @@
 # ChatVideo，一款可以跟视频沟通的软件
-**测试环境**：`python3.10`  
+**测试环境**：`python3.10`、科学上网  
 **用法**：
 - pip3 install -r requirements.txt
 - python3 视频/音频文件 sk-xxx
-- ex. python3 video.mp4 sk-xxx  
-需要科学上网
+- ex. python3 video.mp4 sk-xxx <br> 
+
 **未来设计**：
 - 基于`gradio`的UI设计
 - 直接导入网络视频
