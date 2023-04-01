@@ -3,7 +3,7 @@
 **用法**：
 - pip3 install -r requirements.txt
 - python3 视频/音频文件 sk-xxx
-- ex. python3 video.mp4 sk-xxx
+- ex. python3 video.mp4 sk-xxx  
 需要科学上网
 **未来设计**：
 - 基于`gradio`的UI设计
